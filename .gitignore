@@ -1,0 +1,15 @@
+# Datos crudos pesados: se regeneran desde la fuente, no se versionan
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Sistema
+.DS_Store
